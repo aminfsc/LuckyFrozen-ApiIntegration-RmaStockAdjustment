@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Erp.Tablesets" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Erp.Tablesets" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Ice" />
+  <xs:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="InventoryQtyAdjTableset">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/Ice" base="q1:IceTableset">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="InventoryQtyAdj" nillable="true" type="tns:InventoryQtyAdjTable" />
+          <xs:element minOccurs="0" name="LegalNumGenOpts" nillable="true" type="tns:LegalNumGenOptsTable" />
+          <xs:element minOccurs="0" name="SNFormat" nillable="true" type="tns:SNFormatTable" />
+          <xs:element minOccurs="0" name="SelectedSerialNumbers" nillable="true" type="tns:SelectedSerialNumbersTable" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="InventoryQtyAdjTableset" nillable="true" type="tns:InventoryQtyAdjTableset" />
+  <xs:complexType name="InventoryQtyAdjTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="InventoryQtyAdjRow" nillable="true" type="tns:InventoryQtyAdjRow" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="InventoryQtyAdjTable" nillable="true" type="tns:InventoryQtyAdjTable" />
+  <xs:complexType name="InventoryQtyAdjRow">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/Ice" base="q2:IceRow">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AdjustQuantity" type="xs:decimal" />
+          <xs:element minOccurs="0" name="AllowNegQty" type="xs:boolean" />
+          <xs:element minOccurs="0" name="BinNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ColumnNames" type="tns:InventoryQtyAdjRowColumnOrder" />
+          <xs:element minOccurs="0" name="Company" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EnableSN" type="xs:boolean" />
+          <xs:element minOccurs="0" name="LegalNumberMessage" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LotNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="OnHandQty" type="xs:decimal" />
+          <xs:element minOccurs="0" name="OnHandUOM" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PCID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartIUM" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartPartDescription" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartPricePerCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartSalesUM" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartSellingFactor" type="xs:decimal" />
+          <xs:element minOccurs="0" name="PartTrackDimension" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PartTrackLots" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PartTrackSerialNum" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ReasonCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ReasonCodeDescription" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ReasonCodeReq" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ReasonType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Reference" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SerialNoQty" type="xs:int" />
+          <xs:element minOccurs="0" name="StkUOMCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TempSerialNo" type="xs:int" />
+          <xs:element minOccurs="0" name="TranDocTypeID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TransDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="UnitOfMeasure" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="WareHseCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="WareHseDescription" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="WhseBinDescription" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="InventoryQtyAdjRow" nillable="true" type="tns:InventoryQtyAdjRow" />
+  <xs:simpleType name="InventoryQtyAdjRowColumnOrder">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Company" />
+      <xs:enumeration value="PartNum" />
+      <xs:enumeration value="WareHseCode" />
+      <xs:enumeration value="OnHandQty" />
+      <xs:enumeration value="BinNum" />
+      <xs:enumeration value="AdjustQuantity" />
+      <xs:enumeration value="ReasonCode" />
+      <xs:enumeration value="LotNum" />
+      <xs:enumeration value="Reference" />
+      <xs:enumeration value="UnitOfMeasure" />
+      <xs:enumeration value="TransDate" />
+      <xs:enumeration value="ReasonType" />
+      <xs:enumeration value="SerialNoQty" />
+      <xs:enumeration value="TempSerialNo" />
+      <xs:enumeration value="ReasonCodeReq" />
+      <xs:enumeration value="AllowNegQty" />
+      <xs:enumeration value="LegalNumberMessage" />
+      <xs:enumeration value="StkUOMCode" />
+      <xs:enumeration value="EnableSN" />
+      <xs:enumeration value="OnHandUOM" />
+      <xs:enumeration value="TranDocTypeID" />
+      <xs:enumeration value="PCID" />
+      <xs:enumeration value="SysRowID" />
+      <xs:enumeration value="PartTrackLots" />
+      <xs:enumeration value="PartTrackDimension" />
+      <xs:enumeration value="PartSalesUM" />
+      <xs:enumeration value="PartPricePerCode" />
+      <xs:enumeration value="PartSellingFactor" />
+      <xs:enumeration value="PartTrackSerialNum" />
+      <xs:enumeration value="PartIUM" />
+      <xs:enumeration value="PartPartDescription" />
+      <xs:enumeration value="ReasonCodeDescription" />
+      <xs:enumeration value="WareHseDescription" />
+      <xs:enumeration value="WhseBinDescription" />
+      <xs:enumeration value="RowMod" />
+      <xs:enumeration value="SpecifiedProperties" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="InventoryQtyAdjRowColumnOrder" nillable="true" type="tns:InventoryQtyAdjRowColumnOrder" />
+  <xs:complexType name="LegalNumGenOptsTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LegalNumGenOptsRow" nillable="true" type="tns:LegalNumGenOptsRow" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LegalNumGenOptsTable" nillable="true" type="tns:LegalNumGenOptsTable" />
+  <xs:complexType name="LegalNumGenOptsRow">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="http://schemas.datacontract.org/2004/07/Ice" base="q3:IceRow">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ColumnNames" type="tns:LegalNumGenOptsRowColumnOrder" />
+          <xs:element minOccurs="0" name="Company" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DocumentDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DspTransYear" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EnablePrefix" type="xs:boolean" />
+          <xs:element minOccurs="0" name="EnableSuffix" type="xs:boolean" />
+          <xs:element minOccurs="0" name="GenerationType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LegalNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LegalNumberID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NumberOption" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NumberSuffix" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PeriodPrefix" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Prefix" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PrefixList" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ShowDspTransYear" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ShowTransPeriod" type="xs:boolean" />
+          <xs:element minOccurs="0" name="TranDocTypeID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TranDocTypeID2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TransPeriod" type="xs:int" />
+          <xs:element minOccurs="0" name="TransYear" type="xs:int" />
+          <xs:element minOccurs="0" name="TransYearSuffix" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="LegalNumGenOptsRow" nillable="true" type="tns:LegalNumGenOptsRow" />
+  <xs:simpleType name="LegalNumGenOptsRowColumnOrder">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Company" />
+      <xs:enumeration value="LegalNumberID" />
+      <xs:enumeration value="TransYear" />
+      <xs:enumeration value="TransYearSuffix" />
+      <xs:enumeration value="DspTransYear" />
+      <xs:enumeration value="ShowDspTransYear" />
+      <xs:enumeration value="Prefix" />
+      <xs:enumeration value="PrefixList" />
+      <xs:enumeration value="NumberSuffix" />
+      <xs:enumeration value="EnablePrefix" />
+      <xs:enumeration value="EnableSuffix" />
+      <xs:enumeration value="NumberOption" />
+      <xs:enumeration value="DocumentDate" />
+      <xs:enumeration value="GenerationType" />
+      <xs:enumeration value="Description" />
+      <xs:enumeration value="TransPeriod" />
+      <xs:enumeration value="PeriodPrefix" />
+      <xs:enumeration value="ShowTransPeriod" />
+      <xs:enumeration value="LegalNumber" />
+      <xs:enumeration value="TranDocTypeID" />
+      <xs:enumeration value="TranDocTypeID2" />
+      <xs:enumeration value="SysRowID" />
+      <xs:enumeration value="RowMod" />
+      <xs:enumeration value="SpecifiedProperties" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="LegalNumGenOptsRowColumnOrder" nillable="true" type="tns:LegalNumGenOptsRowColumnOrder" />
+  <xs:complexType name="SNFormatTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SNFormatRow" nillable="true" type="tns:SNFormatRow" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SNFormatTable" nillable="true" type="tns:SNFormatTable" />
+  <xs:complexType name="SNFormatRow">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/Ice" base="q4:IceRow">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BitFlag" type="xs:int" />
+          <xs:element minOccurs="0" name="ColumnNames" type="tns:SNFormatRowColumnOrder" />
+          <xs:element minOccurs="0" name="Company" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HasSerialNumbers" type="xs:boolean" />
+          <xs:element minOccurs="0" name="LeadingZeroes" type="xs:boolean" />
+          <xs:element minOccurs="0" name="NumberOfDigits" type="xs:int" />
+          <xs:element minOccurs="0" name="PartIUM" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartPartDescription" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartPricePerCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartSalesUM" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartSellingFactor" type="xs:decimal" />
+          <xs:element minOccurs="0" name="PartTrackDimension" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PartTrackLots" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PartTrackSerialNum" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Plant" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SNBaseDataType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SNFormat" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SNLastUsedSeq" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SNMask" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SNMaskPrefix" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SNMaskSuffix" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SNPrefix" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SerialMaskDescription" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SerialMaskExample" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SerialMaskMask" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SerialMaskMaskType" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SNFormatRow" nillable="true" type="tns:SNFormatRow" />
+  <xs:simpleType name="SNFormatRowColumnOrder">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Company" />
+      <xs:enumeration value="Plant" />
+      <xs:enumeration value="PartNum" />
+      <xs:enumeration value="NumberOfDigits" />
+      <xs:enumeration value="SNMask" />
+      <xs:enumeration value="SNBaseDataType" />
+      <xs:enumeration value="SNFormat" />
+      <xs:enumeration value="LeadingZeroes" />
+      <xs:enumeration value="SNPrefix" />
+      <xs:enumeration value="SNMaskSuffix" />
+      <xs:enumeration value="SNMaskPrefix" />
+      <xs:enumeration value="SNLastUsedSeq" />
+      <xs:enumeration value="HasSerialNumbers" />
+      <xs:enumeration value="SysRowID" />
+      <xs:enumeration value="BitFlag" />
+      <xs:enumeration value="PartPricePerCode" />
+      <xs:enumeration value="PartTrackLots" />
+      <xs:enumeration value="PartTrackSerialNum" />
+      <xs:enumeration value="PartTrackDimension" />
+      <xs:enumeration value="PartSalesUM" />
+      <xs:enumeration value="PartIUM" />
+      <xs:enumeration value="PartSellingFactor" />
+      <xs:enumeration value="PartPartDescription" />
+      <xs:enumeration value="SerialMaskMaskType" />
+      <xs:enumeration value="SerialMaskMask" />
+      <xs:enumeration value="SerialMaskExample" />
+      <xs:enumeration value="SerialMaskDescription" />
+      <xs:enumeration value="RowMod" />
+      <xs:enumeration value="SpecifiedProperties" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="SNFormatRowColumnOrder" nillable="true" type="tns:SNFormatRowColumnOrder" />
+  <xs:complexType name="SelectedSerialNumbersTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SelectedSerialNumbersRow" nillable="true" type="tns:SelectedSerialNumbersRow" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SelectedSerialNumbersTable" nillable="true" type="tns:SelectedSerialNumbersTable" />
+  <xs:complexType name="SelectedSerialNumbersRow">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="http://schemas.datacontract.org/2004/07/Ice" base="q5:IceRow">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ColumnNames" type="tns:SelectedSerialNumbersRowColumnOrder" />
+          <xs:element minOccurs="0" name="Company" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Deselected" type="xs:boolean" />
+          <xs:element minOccurs="0" name="KBLbrAction" type="xs:int" />
+          <xs:element minOccurs="0" name="KBLbrActionDesc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="KitWhseList" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NotSavedToDB" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PartNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PassedInspection" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PreDeselected" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PreventDeselect" type="xs:boolean" />
+          <xs:element minOccurs="0" name="RawSerialNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ReasonCodeDesc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ReasonCodeType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Reference" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SNBaseNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SNMask" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SNPrefix" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Scrapped" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ScrappedReasonCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SerialNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SourceRowID" type="ser:guid" />
+          <xs:element minOccurs="0" name="TransType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Voided" type="xs:boolean" />
+          <xs:element minOccurs="0" name="XRefPartNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="XRefPartType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="poLinkValues" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SelectedSerialNumbersRow" nillable="true" type="tns:SelectedSerialNumbersRow" />
+  <xs:simpleType name="SelectedSerialNumbersRowColumnOrder">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Company" />
+      <xs:enumeration value="SerialNumber" />
+      <xs:enumeration value="Scrapped" />
+      <xs:enumeration value="ScrappedReasonCode" />
+      <xs:enumeration value="Voided" />
+      <xs:enumeration value="Reference" />
+      <xs:enumeration value="ReasonCodeType" />
+      <xs:enumeration value="ReasonCodeDesc" />
+      <xs:enumeration value="PartNum" />
+      <xs:enumeration value="SNPrefix" />
+      <xs:enumeration value="SNBaseNumber" />
+      <xs:enumeration value="SourceRowID" />
+      <xs:enumeration value="TransType" />
+      <xs:enumeration value="PassedInspection" />
+      <xs:enumeration value="Deselected" />
+      <xs:enumeration value="KitWhseList" />
+      <xs:enumeration value="RawSerialNum" />
+      <xs:enumeration value="KBLbrAction" />
+      <xs:enumeration value="KBLbrActionDesc" />
+      <xs:enumeration value="PreventDeselect" />
+      <xs:enumeration value="XRefPartNum" />
+      <xs:enumeration value="XRefPartType" />
+      <xs:enumeration value="PreDeselected" />
+      <xs:enumeration value="poLinkValues" />
+      <xs:enumeration value="SNMask" />
+      <xs:enumeration value="NotSavedToDB" />
+      <xs:enumeration value="SysRowID" />
+      <xs:enumeration value="RowMod" />
+      <xs:enumeration value="SpecifiedProperties" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="SelectedSerialNumbersRowColumnOrder" nillable="true" type="tns:SelectedSerialNumbersRowColumnOrder" />
+  <xs:complexType name="InventoryQtyAdjBrwTableset">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q6="http://schemas.datacontract.org/2004/07/Ice" base="q6:IceTableset">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="InventoryQtyAdjBrw" nillable="true" type="tns:InventoryQtyAdjBrwTable" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="InventoryQtyAdjBrwTableset" nillable="true" type="tns:InventoryQtyAdjBrwTableset" />
+  <xs:complexType name="InventoryQtyAdjBrwTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="InventoryQtyAdjBrwRow" nillable="true" type="tns:InventoryQtyAdjBrwRow" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="InventoryQtyAdjBrwTable" nillable="true" type="tns:InventoryQtyAdjBrwTable" />
+  <xs:complexType name="InventoryQtyAdjBrwRow">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="http://schemas.datacontract.org/2004/07/Ice" base="q7:IceRow">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BaseOnHandQty" type="xs:decimal" />
+          <xs:element minOccurs="0" name="BaseOnHandUOM" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BinNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ColumnNames" type="tns:InventoryQtyAdjBrwRowColumnOrder" />
+          <xs:element minOccurs="0" name="Company" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LotNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NonNettable" type="xs:boolean" />
+          <xs:element minOccurs="0" name="OnHandQty" type="xs:decimal" />
+          <xs:element minOccurs="0" name="StkUOMCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="StkUOMDesc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="WareHseCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="WhseBinDesc" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="InventoryQtyAdjBrwRow" nillable="true" type="tns:InventoryQtyAdjBrwRow" />
+  <xs:simpleType name="InventoryQtyAdjBrwRowColumnOrder">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Company" />
+      <xs:enumeration value="BinNum" />
+      <xs:enumeration value="OnHandQty" />
+      <xs:enumeration value="NonNettable" />
+      <xs:enumeration value="WareHseCode" />
+      <xs:enumeration value="LotNum" />
+      <xs:enumeration value="WhseBinDesc" />
+      <xs:enumeration value="StkUOMCode" />
+      <xs:enumeration value="StkUOMDesc" />
+      <xs:enumeration value="BaseOnHandQty" />
+      <xs:enumeration value="BaseOnHandUOM" />
+      <xs:enumeration value="SysRowID" />
+      <xs:enumeration value="RowMod" />
+      <xs:enumeration value="SpecifiedProperties" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="InventoryQtyAdjBrwRowColumnOrder" nillable="true" type="tns:InventoryQtyAdjBrwRowColumnOrder" />
+  <xs:complexType name="SelectSerialNumbersParamsTableset">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q8="http://schemas.datacontract.org/2004/07/Ice" base="q8:IceTableset">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="SelectSerialNumbersParams" nillable="true" type="tns:SelectSerialNumbersParamsTable" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SelectSerialNumbersParamsTableset" nillable="true" type="tns:SelectSerialNumbersParamsTableset" />
+  <xs:complexType name="SelectSerialNumbersParamsTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SelectSerialNumbersParamsRow" nillable="true" type="tns:SelectSerialNumbersParamsRow" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SelectSerialNumbersParamsTable" nillable="true" type="tns:SelectSerialNumbersParamsTable" />
+  <xs:complexType name="SelectSerialNumbersParamsRow">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q9="http://schemas.datacontract.org/2004/07/Ice" base="q9:IceRow">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ColumnNames" type="tns:SelectSerialNumbersParamsRowColumnOrder" />
+          <xs:element minOccurs="0" name="allowVoided" type="xs:boolean" />
+          <xs:element minOccurs="0" name="enableCreate" type="xs:boolean" />
+          <xs:element minOccurs="0" name="enableRetrieve" type="xs:boolean" />
+          <xs:element minOccurs="0" name="enableSelect" type="xs:boolean" />
+          <xs:element minOccurs="0" name="partNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="plant" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="poLinkValues" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="quantity" type="xs:int" />
+          <xs:element minOccurs="0" name="sourceRowID" type="ser:guid" />
+          <xs:element minOccurs="0" name="transType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="whereClause" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="xrefCustNum" type="xs:int" />
+          <xs:element minOccurs="0" name="xrefPartNum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="xrefPartType" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SelectSerialNumbersParamsRow" nillable="true" type="tns:SelectSerialNumbersParamsRow" />
+  <xs:simpleType name="SelectSerialNumbersParamsRowColumnOrder">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="partNum" />
+      <xs:enumeration value="quantity" />
+      <xs:enumeration value="whereClause" />
+      <xs:enumeration value="transType" />
+      <xs:enumeration value="sourceRowID" />
+      <xs:enumeration value="enableCreate" />
+      <xs:enumeration value="enableSelect" />
+      <xs:enumeration value="enableRetrieve" />
+      <xs:enumeration value="allowVoided" />
+      <xs:enumeration value="plant" />
+      <xs:enumeration value="xrefPartNum" />
+      <xs:enumeration value="xrefPartType" />
+      <xs:enumeration value="xrefCustNum" />
+      <xs:enumeration value="poLinkValues" />
+      <xs:enumeration value="SysRowID" />
+      <xs:enumeration value="RowMod" />
+      <xs:enumeration value="SpecifiedProperties" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="SelectSerialNumbersParamsRowColumnOrder" nillable="true" type="tns:SelectSerialNumbersParamsRowColumnOrder" />
+</xs:schema>

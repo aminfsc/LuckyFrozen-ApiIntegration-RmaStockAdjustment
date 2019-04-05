@@ -1,0 +1,152 @@
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\WMSImportation.exe.config
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\WMSImportation.exe
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\WMSImportation.pdb
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\obj\Debug\WMSImportation.exe
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\obj\Debug\WMSImportation.pdb
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\obj\Debug\WMSImportation.ProjectInstaller.resources
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\obj\Debug\WMSImportation.csproj.GenerateResource.Cache
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\Ice.Core.Session.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\Ice.Contracts.Lib.SessionMod.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\Epicor.ServiceModel.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\Ice.Lib.Deployment.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\Epicor.Ice.Version.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\Ice.Lib.AppSettingsHandler.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\Ice.Contracts.BO.UserFile.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\Ice.Contracts.Lib.BOReader.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\Ice.Lib.Cryptography.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Debug\Epicor.App.Version.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\WMSImportation.exe.config
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\obj\Debug\WMSImportation.exe
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\obj\Debug\WMSImportation.pdb
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\WMSImportation.exe
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\WMSImportation.pdb
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\Ice.Core.Session.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\Ice.Contracts.Lib.SessionMod.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\Epicor.ServiceModel.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\Ice.Lib.Deployment.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\Epicor.Ice.Version.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\Ice.Lib.AppSettingsHandler.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\Ice.Contracts.BO.UserFile.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\Ice.Contracts.Lib.BOReader.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\Ice.Lib.Cryptography.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\Epicor.App.Version.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\obj\Debug\WMSImportation.ProjectInstaller.resources
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\obj\Debug\WMSImportation.csproj.GenerateResource.Cache
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\Erp.Data.910100.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\bin\Debug\Ice.Data.Model.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - SO\WMSImportation\obj\Debug\WMSImportation.csprojResolveAssemblyReference.cache
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrder (CRID604)\WMSImportation\bin\Debug\WMSImportation.exe.config
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrder (CRID604)\WMSImportation\obj\Debug\WMSImportation.exe
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrder (CRID604)\WMSImportation\obj\Debug\WMSImportation.pdb
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\WMSImportation.exe.config
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\obj\Debug\WMSImportation.exe
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\obj\Debug\WMSImportation.pdb
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\WMSImportation.exe
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\WMSImportation.pdb
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\Erp.Data.910100.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\Ice.Core.Session.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\Ice.Data.Model.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\Epicor.ServiceModel.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\Ice.Contracts.Lib.SessionMod.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\Ice.Lib.Deployment.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\Epicor.Ice.Version.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\Ice.Lib.AppSettingsHandler.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\Ice.Contracts.BO.UserFile.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\Ice.Contracts.Lib.BOReader.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\Ice.Lib.Cryptography.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\bin\Debug\Epicor.App.Version.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\obj\Debug\WMSImportation.csprojResolveAssemblyReference.cache
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\obj\Debug\WMSImportation.ProjectInstaller.resources
+C:\Users\user3\Documents\WMS Integration\WMSImportation - TransferOrderShipment (CRID604)\WMSImportation\obj\Debug\WMSImportation.csproj.GenerateResource.Cache
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\WMSImportation.exe.config
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\obj\Debug\WMSImportation.exe
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\obj\Debug\WMSImportation.pdb
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\obj\Debug\WMSImportation.csprojResolveAssemblyReference.cache
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\obj\Debug\WMSImportation.ProjectInstaller.resources
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\obj\Debug\WMSImportation.csproj.GenerateResource.Cache
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\WMSImportation.exe
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\WMSImportation.pdb
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\Erp.Data.910100.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\Ice.Core.Session.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\Ice.Data.Model.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\Epicor.ServiceModel.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\Ice.Contracts.Lib.SessionMod.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\Ice.Lib.Deployment.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\Epicor.Ice.Version.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\Ice.Lib.AppSettingsHandler.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\Ice.Contracts.BO.UserFile.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\Ice.Contracts.Lib.BOReader.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\Ice.Lib.Cryptography.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - RMA(CRID401)\WMSImportation\bin\Debug\Epicor.App.Version.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\WMSImportation.exe.config
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.exe
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.pdb
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\WMSImportation.exe
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\WMSImportation.pdb
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Erp.Data.910100.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Core.Session.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Data.Model.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Epicor.ServiceModel.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Contracts.Lib.SessionMod.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Lib.Deployment.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Epicor.Ice.Version.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Lib.AppSettingsHandler.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Contracts.BO.UserFile.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Contracts.Lib.BOReader.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Lib.Cryptography.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Epicor.App.Version.dll
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.ProjectInstaller.resources
+C:\Users\user3\Documents\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.csproj.GenerateResource.Cache
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\WMSImportation.exe.config
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.exe
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.pdb
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\WMSImportation.exe
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\WMSImportation.pdb
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Core.Session.dll
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Epicor.ServiceModel.dll
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Contracts.Lib.SessionMod.dll
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Lib.Deployment.dll
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Contracts.Lib.BOReader.dll
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Contracts.BO.UserFile.dll
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Lib.Cryptography.dll
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Lib.AppSettingsHandler.dll
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Epicor.Ice.Version.dll
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Epicor.App.Version.dll
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.ProjectInstaller.resources
+C:\ExternalPrograms\WMS Integration\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.csproj.GenerateResource.Cache
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\WMSImportation.exe.config
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.exe
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.pdb
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\WMSImportation.exe
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\WMSImportation.pdb
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Core.Session.dll
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Epicor.ServiceModel.dll
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Contracts.Lib.SessionMod.dll
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Lib.Deployment.dll
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Contracts.Lib.BOReader.dll
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Contracts.BO.UserFile.dll
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Lib.Cryptography.dll
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Lib.AppSettingsHandler.dll
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Epicor.Ice.Version.dll
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Epicor.App.Version.dll
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.ProjectInstaller.resources
+C:\ExternalPrograms\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.csproj.GenerateResource.Cache
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\WMSImportation.exe.config
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\WMSImportation.exe
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\WMSImportation.pdb
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Core.Session.dll
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Epicor.ServiceModel.dll
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Contracts.Lib.SessionMod.dll
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Lib.Deployment.dll
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Contracts.Lib.BOReader.dll
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Contracts.BO.UserFile.dll
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Lib.Cryptography.dll
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Ice.Lib.AppSettingsHandler.dll
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Epicor.Ice.Version.dll
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\bin\Debug\Epicor.App.Version.dll
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.ProjectInstaller.resources
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.csproj.GenerateResource.Cache
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.csproj.CoreCompileInputs.cache
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.exe
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.pdb
+D:\External Programs\WMS Importation\WMSImportation - (P501) Stock Adjustment\WMSImportation\obj\Debug\WMSImportation.csprojResolveAssemblyReference.cache

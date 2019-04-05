@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ff37be7b-8313-4a05-8491-d105b282c445" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://192.168.0.4/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="InventoryQtyAdj.xsd" MetadataType="Schema" ID="1ee48394-b0a0-4290-b555-b81d4c1f5549" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd7" />
+    <MetadataFile FileName="InventoryQtyAdj.wsdl" MetadataType="Wsdl" ID="109a224e-bd63-486c-b419-18967f3122cb" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="InventoryQtyAdj1.xsd" MetadataType="Schema" ID="982c6414-b294-4a2b-9e48-cd6d2fe0d74d" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd1" />
+    <MetadataFile FileName="InventoryQtyAdj2.xsd" MetadataType="Schema" ID="f40038ec-7e52-451f-b892-6e38d0f3434e" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd3" />
+    <MetadataFile FileName="InventoryQtyAdj3.xsd" MetadataType="Schema" ID="f610e863-f868-4a81-88bc-d7235a4e1c0c" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd4" />
+    <MetadataFile FileName="InventoryQtyAdj4.xsd" MetadataType="Schema" ID="0f1dab06-bbb2-44bf-a2c5-1a0aceb193af" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd2" />
+    <MetadataFile FileName="InventoryQtyAdj5.xsd" MetadataType="Schema" ID="4e72de0a-69d6-46b3-b81a-53dfc4fa77ac" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd5" />
+    <MetadataFile FileName="InventoryQtyAdjSvcFacade.wsdl" MetadataType="Wsdl" ID="a11042af-cc54-428e-9c8c-df65caa94a9d" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?wsdl" />
+    <MetadataFile FileName="InventoryQtyAdj.disco" MetadataType="Disco" ID="a59f7cd7-2f19-46b4-adc7-03109da67043" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?disco" />
+    <MetadataFile FileName="InventoryQtyAdj6.xsd" MetadataType="Schema" ID="c2d2cfca-071c-4fad-b64a-0f044a3f7617" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd6" />
+    <MetadataFile FileName="InventoryQtyAdj7.xsd" MetadataType="Schema" ID="0b6e62d0-512b-45ba-bc59-21d09ae40671" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

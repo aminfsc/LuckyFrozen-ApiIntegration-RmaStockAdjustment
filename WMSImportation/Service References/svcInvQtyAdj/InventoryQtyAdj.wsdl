@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="Erp:BO:InventoryQtyAdj" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="Erp:BO:InventoryQtyAdj" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="Erp:BO:InventoryQtyAdj/Imports">
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd0" namespace="Erp:BO:InventoryQtyAdj" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Ice.Common" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Erp.Tablesets" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Ice" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/Epicor.Data" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/InventoryQtyAdj.svc?xsd=xsd7" namespace="http://epicor.com/UserDefinedColumns" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="InventoryQtyAdjSvcContract_CheckSN_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckSN" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_CheckSN_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckSNResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_CheckSN_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q1:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetInventoryQtyAdj_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInventoryQtyAdj" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetInventoryQtyAdj_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInventoryQtyAdjResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetInventoryQtyAdj_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q2:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetInventoryQtyAdjBrw_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInventoryQtyAdjBrw" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetInventoryQtyAdjBrw_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInventoryQtyAdjBrwResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetInventoryQtyAdjBrw_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q3:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetPartXRefInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPartXRefInfo" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetPartXRefInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPartXRefInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetPartXRefInfo_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q4:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetSelectSerialNumbersParams_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSelectSerialNumbersParams" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetSelectSerialNumbersParams_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSelectSerialNumbersParamsResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetSelectSerialNumbersParams_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q5:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_KitPartStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:KitPartStatus" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_KitPartStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:KitPartStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_KitPartStatus_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q6:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_PreSetInventoryQtyAdj_InputMessage">
+    <wsdl:part name="parameters" element="tns:PreSetInventoryQtyAdj" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_PreSetInventoryQtyAdj_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PreSetInventoryQtyAdjResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_PreSetInventoryQtyAdj_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q7:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_SetInventoryQtyAdj_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetInventoryQtyAdj" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_SetInventoryQtyAdj_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetInventoryQtyAdjResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_SetInventoryQtyAdj_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q8:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_ValidateSN_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateSN" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_ValidateSN_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateSNResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_ValidateSN_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q9:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetAvailTranDocTypes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailTranDocTypes" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetAvailTranDocTypes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailTranDocTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetAvailTranDocTypes_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q10:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_NegativeInventoryTest_InputMessage">
+    <wsdl:part name="parameters" element="tns:NegativeInventoryTest" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_NegativeInventoryTest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NegativeInventoryTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_NegativeInventoryTest_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q11:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_FindPart_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindPart" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_FindPart_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindPartResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_FindPart_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q12:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetPartFromRowID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPartFromRowID" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetPartFromRowID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPartFromRowIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_GetPartFromRowID_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q13:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_ChangeUOM_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeUOM" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_ChangeUOM_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeUOMResponse" />
+  </wsdl:message>
+  <wsdl:message name="InventoryQtyAdjSvcContract_ChangeUOM_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q14:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:portType name="InventoryQtyAdjSvcContract">
+    <wsdl:operation name="CheckSN">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/CheckSN" message="tns:InventoryQtyAdjSvcContract_CheckSN_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/CheckSNResponse" message="tns:InventoryQtyAdjSvcContract_CheckSN_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/CheckSNEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_CheckSN_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInventoryQtyAdj">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetInventoryQtyAdj" message="tns:InventoryQtyAdjSvcContract_GetInventoryQtyAdj_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetInventoryQtyAdjResponse" message="tns:InventoryQtyAdjSvcContract_GetInventoryQtyAdj_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetInventoryQtyAdjEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_GetInventoryQtyAdj_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInventoryQtyAdjBrw">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetInventoryQtyAdjBrw" message="tns:InventoryQtyAdjSvcContract_GetInventoryQtyAdjBrw_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetInventoryQtyAdjBrwResponse" message="tns:InventoryQtyAdjSvcContract_GetInventoryQtyAdjBrw_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetInventoryQtyAdjBrwEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_GetInventoryQtyAdjBrw_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPartXRefInfo">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetPartXRefInfo" message="tns:InventoryQtyAdjSvcContract_GetPartXRefInfo_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetPartXRefInfoResponse" message="tns:InventoryQtyAdjSvcContract_GetPartXRefInfo_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetPartXRefInfoEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_GetPartXRefInfo_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSelectSerialNumbersParams">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetSelectSerialNumbersParams" message="tns:InventoryQtyAdjSvcContract_GetSelectSerialNumbersParams_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetSelectSerialNumbersParamsResponse" message="tns:InventoryQtyAdjSvcContract_GetSelectSerialNumbersParams_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetSelectSerialNumbersParamsEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_GetSelectSerialNumbersParams_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="KitPartStatus">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/KitPartStatus" message="tns:InventoryQtyAdjSvcContract_KitPartStatus_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/KitPartStatusResponse" message="tns:InventoryQtyAdjSvcContract_KitPartStatus_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/KitPartStatusEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_KitPartStatus_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PreSetInventoryQtyAdj">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/PreSetInventoryQtyAdj" message="tns:InventoryQtyAdjSvcContract_PreSetInventoryQtyAdj_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/PreSetInventoryQtyAdjResponse" message="tns:InventoryQtyAdjSvcContract_PreSetInventoryQtyAdj_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/PreSetInventoryQtyAdjEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_PreSetInventoryQtyAdj_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetInventoryQtyAdj">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/SetInventoryQtyAdj" message="tns:InventoryQtyAdjSvcContract_SetInventoryQtyAdj_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/SetInventoryQtyAdjResponse" message="tns:InventoryQtyAdjSvcContract_SetInventoryQtyAdj_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/SetInventoryQtyAdjEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_SetInventoryQtyAdj_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateSN">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/ValidateSN" message="tns:InventoryQtyAdjSvcContract_ValidateSN_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/ValidateSNResponse" message="tns:InventoryQtyAdjSvcContract_ValidateSN_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/ValidateSNEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_ValidateSN_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailTranDocTypes">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetAvailTranDocTypes" message="tns:InventoryQtyAdjSvcContract_GetAvailTranDocTypes_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetAvailTranDocTypesResponse" message="tns:InventoryQtyAdjSvcContract_GetAvailTranDocTypes_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetAvailTranDocTypesEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_GetAvailTranDocTypes_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NegativeInventoryTest">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/NegativeInventoryTest" message="tns:InventoryQtyAdjSvcContract_NegativeInventoryTest_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/NegativeInventoryTestResponse" message="tns:InventoryQtyAdjSvcContract_NegativeInventoryTest_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/NegativeInventoryTestEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_NegativeInventoryTest_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindPart">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/FindPart" message="tns:InventoryQtyAdjSvcContract_FindPart_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/FindPartResponse" message="tns:InventoryQtyAdjSvcContract_FindPart_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/FindPartEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_FindPart_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPartFromRowID">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetPartFromRowID" message="tns:InventoryQtyAdjSvcContract_GetPartFromRowID_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetPartFromRowIDResponse" message="tns:InventoryQtyAdjSvcContract_GetPartFromRowID_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/GetPartFromRowIDEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_GetPartFromRowID_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeUOM">
+      <wsdl:input wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/ChangeUOM" message="tns:InventoryQtyAdjSvcContract_ChangeUOM_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/ChangeUOMResponse" message="tns:InventoryQtyAdjSvcContract_ChangeUOM_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:InventoryQtyAdj/InventoryQtyAdjSvcContract/ChangeUOMEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:InventoryQtyAdjSvcContract_ChangeUOM_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
